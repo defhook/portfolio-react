@@ -8,8 +8,7 @@ function App() {
   const [categories] = useState([
     {
       name: "Full Stack Developer",
-      description:
-        
+      description: "Me",
     },
   ]);
 
