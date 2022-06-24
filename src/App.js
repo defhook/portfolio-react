@@ -7,8 +7,16 @@ import ContactForm from "./components/Contact";
 function App() {
   const [categories] = useState([
     {
-      name: "Full Stack Developer",
-      description: "Me",
+      name: "HTML",
+      description: "HTML projects",
+    },
+    {
+      name: "MySQL",
+      description: "MySQL projects",
+    },
+    {
+      name: "API",
+      description: "API projects",
     },
   ]);
 

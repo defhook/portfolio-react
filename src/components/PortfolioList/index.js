@@ -4,26 +4,24 @@ import Modal from "../Modal";
 const PortfolioList = ({ category }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentPhoto, setCurrentPhoto] = useState();
-
+  
+  console.log("category");
   const [photos] = useState([
     {
-      id: 1,
       name: "Dinero",
-      category: "First Project",
+      category: "API",
       deploy: "https://defhook.github.io/dinero/",
       repo: "https://github.com/defhook/dinero",
     },
     {
-      id: 2, 
       name: "Riddle Me This",
-      category: "Second Project",
+      category: "MySQL",
       deploy: "https://morning-sierra-98445.herokuapp.com/",
       repo: "https://github.com/Rodrigo-Valencia/Riddle-Me-This",
     },
     {
-      id: 3,
       name: "Run Buddy",
-      category: "First HTML repo",
+      category: "HTML",
       deploy: "https://defhook.github.io/run-buddy/",
       repo: "https://github.com/defhook/run-buddy",
     },
