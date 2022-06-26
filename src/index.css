@@ -292,3 +292,39 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+
+
+footer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  padding-top: 20px;
+  color: #CAF0F8
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-container h5 {
+  font-size: 18px;
+  font-weight: 150;
+}
+
+.icons {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px
+}
+
+.icons li {
+  margin: 0 10px;
+}

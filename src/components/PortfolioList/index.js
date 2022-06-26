@@ -44,7 +44,7 @@ const PortfolioList = ({ category }) => {
       <div className="flex-row">
         {currentPhotos.map((image, i) => (
           <img
-            src={require(`../../assets/screenshots/${category}/${i}.jpg`)}
+            src={require(`../../assets/small/${category}/${i}.jpg`)}
             alt={image.name}
             className="img-thumbnail mx-1"
             onClick={() => toggleModal(image, i)}
