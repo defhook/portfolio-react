@@ -14,7 +14,7 @@ function Nav(props) {
     <header className="flex-row px-1">
       <h2>
         <a data-testid="link" href="https://github.com/defhook">
-          <span role="img" aria-label="camera">
+          <span role="img" aria-label="monkey">
             {" "}
             🙉
           </span>{" "}
