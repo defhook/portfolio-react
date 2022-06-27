@@ -5,7 +5,7 @@ const PortfolioList = ({ category }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentPhoto, setCurrentPhoto] = useState();
   
-  console.log("category");
+  console.log("category", category);
   const [photos] = useState([
     {
       name: "Dinero",
