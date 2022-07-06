@@ -28,7 +28,7 @@ const PortfolioList = ({ category }) => {
     {
       name: "Pass",
       category: "Portfolio",
-      deploy: "/",
+      deploy: "https://secure-river-32894.herokuapp.com/",
       repo: "https://github.com/defhook/pass"
     },
   ]);
