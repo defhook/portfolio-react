@@ -25,6 +25,12 @@ const PortfolioList = ({ category }) => {
       deploy: "https://defhook.github.io/run-buddy/",
       repo: "https://github.com/defhook/run-buddy",
     },
+    {
+      name: "Pass",
+      category: "MERN",
+      deploy: "/",
+      repo: "https://github.com/defhook/pass"
+    },
   ]);
 
   const currentPhotos = photos.filter((photo) => photo.category === category);

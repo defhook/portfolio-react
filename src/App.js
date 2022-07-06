@@ -19,6 +19,10 @@ function App() {
       name: "API",
       description: "API projects",
     },
+    {
+      name: "MERN",
+      description: "MERN projects",
+    },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
