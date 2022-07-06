@@ -8,20 +8,8 @@ import Footer from "./components/Footer";
 function App() {
   const [categories] = useState([
     {
-      name: "HTML",
-      description: "HTML projects",
-    },
-    {
-      name: "MySQL",
-      description: "MySQL projects",
-    },
-    {
-      name: "API",
-      description: "API projects",
-    },
-    {
-      name: "MERN",
-      description: "MERN projects",
+      name: "Portfolio",
+      description: "Projects completed",
     },
   ]);
 

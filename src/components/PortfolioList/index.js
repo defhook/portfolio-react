@@ -9,25 +9,25 @@ const PortfolioList = ({ category }) => {
   const [photos] = useState([
     {
       name: "Dinero",
-      category: "API",
+      category: "Portfolio",
       deploy: "https://defhook.github.io/dinero/",
       repo: "https://github.com/defhook/dinero",
     },
     {
       name: "Riddle Me This",
-      category: "MySQL",
+      category: "Portfolio",
       deploy: "https://morning-sierra-98445.herokuapp.com/",
       repo: "https://github.com/Rodrigo-Valencia/Riddle-Me-This",
     },
     {
       name: "Run Buddy",
-      category: "HTML",
+      category: "Portfolio",
       deploy: "https://defhook.github.io/run-buddy/",
       repo: "https://github.com/defhook/run-buddy",
     },
     {
       name: "Pass",
-      category: "MERN",
+      category: "Portfolio",
       deploy: "/",
       repo: "https://github.com/defhook/pass"
     },
